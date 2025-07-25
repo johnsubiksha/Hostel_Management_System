@@ -1,0 +1,90 @@
+.complaints-split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Both sections use the same base style */
+.complaints-container {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Optional to restrict width */
+.form-section {
+ max-width: 600px;  /* Wider form */
+  margin: 0 auto;    /* Centered */
+  flex: 1;
+}
+
+.history-section {
+  max-width: 45%;
+}
+
+/* History List */
+.history-list {
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+}
+
+.history-list li {
+  background-color: #e6f0ff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+/* Label + input layout */
+.complaints-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+}
+
+.complaints-container label {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+}
+
+.complaints-container input,
+.complaints-container select,
+.complaints-container textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Bigger textarea */
+.complaints-container textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Button styling */
+.complaints-container button {
+  padding: 14px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.complaints-container button:hover {
+  background-color: #0056b3;
+}

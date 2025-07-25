@@ -1,0 +1,32 @@
+.complaints-view {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .complaints-content {
+    margin-left: 250px; /* Adjust if your sidebar width differs */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f5f5f5;
+  }
+
+  table thead tr th{
+    color: black;
+  }
+  

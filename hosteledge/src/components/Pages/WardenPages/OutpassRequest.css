@@ -1,0 +1,82 @@
+.outpass {
+  max-width: 75%;
+  margin-left: 20%;
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.outpass table {
+    overflow-x: auto;
+    display: block;
+    max-width: 100%;
+}
+
+tr td.status.pending {
+    font-weight: bold;
+    background-color: #fff3cd;
+}
+
+.outpass h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+.status.pending {
+    color: orange;
+}
+
+.status.approved {
+    color: green;
+}
+
+.status.rejected {
+    color: red;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.approve {
+    background-color: #28a745;
+    color: white;
+}
+
+button.approve:hover {
+    background-color: #218838;
+}
+
+button.reject {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.reject:hover {
+    background-color: #c82333;
+}

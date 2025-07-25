@@ -1,0 +1,28 @@
+.dashboard-container {
+  width: 100%;
+}
+
+.content {
+  width: 80%;
+  margin-left: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  height: 90%;
+  padding: 20px;
+   /* Optional: adds spacing */
+}
+
+.content h1 {
+  color: black;
+
+}
+
+.content p{
+    color: black;
+}
+
+.content h2{
+  color:blue;
+}
+

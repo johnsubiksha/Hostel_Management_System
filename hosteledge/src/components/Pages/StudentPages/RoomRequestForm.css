@@ -1,0 +1,97 @@
+.request-form-container {
+  max-width: 75%;
+  margin-left: 20%;
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.form-label {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .request-form-container {
+    max-width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}

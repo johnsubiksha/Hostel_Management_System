@@ -1,0 +1,30 @@
+.room{
+  max-width: 75%;
+  margin-left: 20%;
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.room h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+
+.room th, .room td {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+

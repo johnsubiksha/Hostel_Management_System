@@ -1,0 +1,133 @@
+*{
+    margin:0 auto;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width:100%;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    
+    width:100%;
+    padding: 20px;
+    margin:auto;
+    margin-left: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 20px;
+
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* spacing between items */
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight:600 ;
+}
+
+li a:hover{
+    padding: 5px;
+    background: white;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color:black;
+}
+
+.content-1{
+    width: 100%;
+    margin-left: 15%;
+    color:white;
+    position:absolute;
+    top:45%;
+    text-align: center;
+    transform: translateY(-50%);
+
+}
+.content-1 h1{
+
+    margin-right: 35%;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.content-1 h4{
+    margin-top: 20px;
+    margin-right: 35%;
+    margin-left: 0%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.content-1 button{
+    width:200px;
+    margin-top: 20px;
+    margin-right: 35%;
+    padding:15px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px solid;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight:600;
+}
+
+button:hover{
+    background: rgba(0,155,226);
+    transition: 0.5s;
+}
+
+button:hover{
+    color:white;
+}
+
+.banner video{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    z-index:-1;
+    width: 100%;
+}
+
+.login{
+    width:100px;
+    padding:10px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid;
+    cursor: pointer;
+    background-color:  rgb(5, 169, 245);
+}
+
+.login a:hover{
+    background-color:  rgb(5, 169, 245);
+}
+
+.login:hover{
+    color: black;
+}
